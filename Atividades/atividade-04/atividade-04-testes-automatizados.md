@@ -183,8 +183,6 @@ Cada integrante deve escolher um teste de sua responsabilidade e demonstrar comp
 - **Resultado esperado:** a função retorna 10, que é 10% de 100. Ela devolve só o valor do desconto, não o valor final do pedido.
 - **O que faria o teste falhar:** se a condição da função fosse `valor_pedido > 100` em vez de `valor_pedido >= 100`, o pedido de R$ 100,00 não receberia desconto, a função retornaria 0 e o `assert resultado == 10` falharia.
 
-> Repita esta subseção para cada integrante.
-
 ---
 
 ## 8. Uso de inteligência artificial
